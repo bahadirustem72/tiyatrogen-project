@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Oyun 1",
+        "description": "Oyun 1 açıklaması.",
+        "image": "oyun1.jpg"
+    },
+
+    {
+        "name: ": "Oyun 2",
+        "description": "Oyun 2 açıklaması.",
+        "image": "oyun2.jpg"
+    }
+]

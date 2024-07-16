@@ -1,0 +1,64 @@
+<div class="container my-5" style="padding-top: 80px;">
+    <h2>Oyunlar</h2>
+    <ul class="nav nav-tabs" id="oyunlarTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="sezon-oyunlari-tab" data-bs-toggle="tab" data-bs-target="#sezon-oyunlari" 
+            type="button" role="tab" aria-controls="sezon-oyunlari" aria-selected="true">Sezon Oyunları</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="arsiv-tab" data-bs-toggle="tab" data-bs-target="#arsiv" type="button" 
+            role="tab" aria-controls="arsiv" aria-selected="false">Arşiv</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="hazirlik-tab" data-bs-toggle="tab" data-bs-target="#hazirlik" type="button" 
+            role="tab" aria-controls="hazirlik" aria-selected="false">Hazırlık Aşamasında Olanlar</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="oyunlarTabContent">
+        <div class="tab-pane fade show active" id="sezon-oyunlari" role="tabpanel" aria-labelledby="sezon-oyunlari-tab">
+            <div class="row">
+                <% sezonOyunlari.forEach(play => { %>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <div class="card mb-4">
+                            <img src="/images/oyunlar/<%= play.image %>" class="card-img-top" alt="<%= play.name %>">
+                            <div class="card-body">
+                                <h5 class="card-title"><%= play.name %></h5>
+                                <p class="card-text"><%= play.description %></p>
+                            </div>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="arsiv" role="tabpanel" aria-labelledby="arsiv-tab">
+            <div class="row">
+                <% arsivOyunlari.forEach(play => { %>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <div class="card mb-4">
+                            <img src="/images/oyunlar/<%= play.image %>" class="card-img-top" alt="<%= play.name %>">
+                            <div class="card-body">
+                                <h5 class="card-title"><%= play.name %></h5>
+                                <p class="card-text"><%= play.description %></p>
+                            </div>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="hazirlik" role="tabpanel" aria-labelledby="hazirlik-tab">
+            <div class="row">
+                <% hazirlikOyunlari.forEach(play => { %>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <div class="card mb-4">
+                            <img src="/images/oyunlar/<%= play.image %>" class="card-img-top" alt="<%= play.name %>">
+                            <div class="card-body">
+                                <h5 class="card-title"><%= play.name %></h5>
+                                <p class="card-text"><%= play.description %></p>
+                            </div>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+</div>

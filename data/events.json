@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Sahte Cennet (Prömier)",
+        "date": "2024-07-15",
+        "poster": "/images/activity_calendar/afis_sahtecennet.png",
+        "description": "Etkinlik 1 açıklaması.",
+        "details": "Yunus Emre Kültür Merkezi - Müşfik Kenter Sahnesi - Saat: 20.00"
+    },
+    {
+        "id": 2,
+        "name": "Sahte Cennet",
+        "date": "2024-07-16",
+        "poster": "/images/activity_calendar/afis_sahtecennet.png",
+        "description": "Etkinlik 2 açıklaması.",
+        "details": "Yunus Emre Kültür Merkezi - Müşfik Kenter Sahnesi - Saat: 20.00"
+    }
+    
+]

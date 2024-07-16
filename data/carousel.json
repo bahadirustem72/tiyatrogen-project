@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "image": "/images/slider_photos/slide_1_2x3.png",
+        "imagePortrait": "/images/slider_photos/slide_1_1x1.png",
+        "alt": "Birinci slide",
+        "title": "Sahte Cennet",
+        "description": ""
+    },
+    {
+        "id": 1,
+        "image": "/images/slider_photos/slide_2_2x3.png",
+        "imagePortrait": "/images/slider_photos/slide_2_1x1.png",
+        "alt": "İkinci slide",
+        "title": "Sahte Cennet",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "image": "/images/slider_photos/slide_3_2x3.png",
+        "imagePortrait": "/images/slider_photos/slide_3_1x1.png",
+        "alt": "Üçüncü slide",
+        "title": "Sahte Cennet",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "image": "/images/slider_photos/slide_4_2x3.png",
+        "imagePortrait": "/images/slider_photos/slide_4_1x1.png",
+        "alt": "Dördüncü slide",
+        "title": "Sahte Cennet",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "image": "/images/slider_photos/slide_5_2x3.png",
+        "imagePortrait": "/images/slider_photos/slide_5_1x1.png",
+        "alt": "Beşinci slide",
+        "title": "Sahte Cennet",
+        "description": ""
+    }
+]

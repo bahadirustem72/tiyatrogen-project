@@ -1,0 +1,38 @@
+/* Ana Sayfa */
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Hakkımızda Sayfası */
+#hakkimizda p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#hakkimizda h3, #hakkimizda h4, #hakkimizda h5, #hakkimizda h6 {
+    font-size: 24px;
+    color: #FF4500;
+    margin-top: 20px;
+}
+
+/* Oyunlar Sayfası */
+.nav-tabs .nav-link {
+    color: #FF4500;
+}
+
+.nav-tabs .nav-link.active {
+    color: #F2F2F2;
+    background-color: #0D0D0D;
+    border-color: #0D0D0D;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #FFD700;
+}

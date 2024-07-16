@@ -1,0 +1,226 @@
+[
+    {
+    "id": 1,
+      "name": "Ayça GÜVEN",
+      "role": "Atölye Oyuncusu",
+      "image": "images/oyuncular/ayca_guven.png",
+      "description": "2008 yılında İstanbul’da doğdu. Yeşilköy 50. Yıl Anadolu lisesinde okuyor. 1 yıl BASAD da tiyatro eğitimi gördü. 1 yıldır Tiyatrogen ekibinde aktif olarak oyunculuk yapıyor. Rol aldığı oyunlar; Kadının ta kendisi, Sahte Cennet"
+    },
+    {
+      "id": 2,
+      "name": "Bahadır ÜSTEM",
+      "role": "Görsel Tasarım",
+      "image": "images/oyuncular/bahadir_ustem.png",
+      "description": "1972 yılında Bakırköy İstanbul'da doğdu. İstanbul Üniversitesi Fen Fakültesi Matematik Bölümü'nden mezun oldu. 1998 yılından beri bankacılık sektöründe bilişim departmanlarında görev yaparken İFSAK'ta çeşitli eğitimlere katıldı. 2015 yılında Tiyatrogen ekibine önce fotoğrafçı olarak katıldı, ardından \"Sahte Cennet\" oyunu içinde Ses Kumanda yönetimine başladı. Aynı dönemde ekip içinde Web Sitesi Tassarımı; Afiş, Broşür ve Davetiye Tasarımı ve Sosyal Medya Yönetiminde yer almaktadır."
+    },
+    {
+      "id": 3,
+      "name": "Burcu KÜÇÜK",
+      "role": "Reji Asistanı",
+      "image": "images/oyuncular/burcu_kucuk.png",
+      "description": "1982 yılında Bursa'da doğdu. 2004 yılında Marmara Üniversitesi Guzel Sanatlar Fakültesi Resim Bölümü'nden mezun oldu. BUFSAD ve İFSAK'da fotoğraf eğitimleri aldi. 2017 yılında diksiyon, 2018 yılında formasyon eğitimini tamamlayarak Görsel Sanatlar Öğretmeni oldu. 2019 İstanbul Öğretmen Akademileri Drama Eğitimi, 2021-2024 Zeytinburnu Kültür Merkezi'nde Tiyatro Eğitimi aldı. Pişti ve Aşkımız Aksaray'ın En Büyük Yangını tiyatro oyunlarında rol aldı."
+    },
+  {
+    "id": 4,
+    "name": "Celalettin DEMİREL",
+    "role": "Oyuncu",
+    "image": "images/oyuncular/celalettin_demirel.png",
+    "description": "1964 yılında İstanbul'da doğdu. Bakırköy Sanatçılar Derneği'nde tiyatro eğitimi aldı. Halen BASAD üyesidir. Çeşitli tiyatro oyunlarında, dizilerde ve sinema filmlerinde rol aldı. Tiyatrogen ekibiyle birlikte sosyal sorumluluk projesinde ve yeni oyunlarda görev almaktadır."
+  },
+  {
+    "id": 5,
+    "name": "Ceren BİLGİN",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/ceren_bilgin.png",
+    "description": "2006 yılında İstanbul'da doğdu. Atışalanı Anadolu Lisesi mezunu. 5 aydir Tiyatrogen ailesiyle beraber. Rol aldığı oyun: Sahte Cennet"
+  },
+  {
+    "id": 6,
+    "name": "Duru DÖKMEN",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/duru_dokmen.png",
+    "description": "[Hazırlık Aşamasındadır]"
+  },
+  {
+    "id": 7,
+    "name": "Ebru DEMİR",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/ebru_demir.png",
+    "description": "1964 yılında Kars'ta doğdu. Kars Sağlık Koleji'ni bitirdi. Mesleğine hemşire olarak devam etti. 2008 yılında emekli oldu. Müjdat Gezen Akşam Okulu'ndan eğitim aldı. Daha sonra, Bakırköylü Sanatçılar Derneği'nde eğitimine devam etti. 2010 yılında mezun oldu. Birçok tiyatro grubuyla çalıştı, çeşitli oyunlarda rol aldı. Oyunculuğa Başyapıt adlı oyunla Bakırköylüler Derneği Tiyatro Atölyesi'nde devam ediyor"
+  },
+  {
+    "id": 8,
+    "name": "Erdinç DURAN",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/erdinc_duran.png",
+    "description": "1989 yılında İstanbul Bakırköy'de doğdu. Liseyi Yalova Fen Lisesi'nde, lisans eğitimini Yakın Doğu Üniversitesi Eczacılık Fakültesi'nde 2014 yılında tamamladı. 2017 yılında İstanbul Üniversitesi Sanat Tarihi Bölümüne başladı. Ayrıca 2022 yılından beri İstanbul Üniversitesi Tiyatro Eleştirmenliği ve Dramaturji Bölümü öğrencisi. Eczacılık mesleğini sürdürürken aynı zamanda İstanbul Eczacı Odası Gençlik Tiyatrosu ile birlikte tiyatroya başladı. 2022 yılında Tiyatrogen ailesine katıldı.\nRol aldığı oyunlar; 'Lüküs Hayat', 'Ah Bu Hayat', 'Ayı', 'Rahmetli de Sollardı'."
+  },
+  {
+    "id": 9,
+    "name": "Eren SAKARYA",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/eren_sakarya.png",
+    "description": "1996 yılında İstanbul'da doğdu. Burç Koleji Güzel Sanatlar ve Spor Lisesi'nden mezun oldu, halen Beykent Üniversitesi BESYO bölümününe devam etmektedir. Tiyatroya 2018 yılında Tiyatrogen ekibine katılarak başladı. Rol aldığı oyunlar ; 'Rahmetli de Sollardı' ,'Halet-i Ruhiye' , 'Kadının Ta Kendisi' , 'Sahte Cennet'"
+  },
+  {
+    "id": 10,
+    "name": "Fulya ÖZCAN",
+    "role": "Oyuncu",
+    "image": "images/oyuncular/fulya_ozcan.png",
+    "description": "1972 yılında İstanbul'da doğdu. 1990 yılında Tekirdağ Üniversitesi İşletme Bölümü'nde öğrenimini sürdürürken Tekirdağ Namık Kemal Bölge Tiyatrosu'nda 'Kanlı Düğün' adlı oyunda rol aldı. 'Branda Bezi' ve çeşitli çocuk oyunlarında oynadı. 1994 yılında 'DJ lik ve Spikerlik Sertifikası' alarak Avcılar Bölge Radyosu'nda 'Paratoner' programının yapımcılığını ve sunuculuğunu üstlendi. Tiyatroya uzun bir ara verdikten sonra, 2016-2017 sezonunda Tiyatrogen ailesine katılarak tiyatroya geri dönüş yaptı."
+  },
+  {
+    "id": 11,
+    "name": "Gökhan ONARAN",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/gokhan_onaran.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 12,
+    "name": "İnan BABA",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/inan_baba.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 13,
+    "name": "İzden ÜNLÜ",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/izden_unlu.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 14,
+    "name": "Korel AYDOĞDU",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/korel_aydogdu.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 15,
+    "name": "Latife KESKİN",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/latife_keskin.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 16,
+    "name": "Melike ZAMAN",
+    "role": "Oyuncu",
+    "image": "images/oyuncular/melike_zaman.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 17,
+    "name": "Melikşah ÜZER",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/meliksah_uzer.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 18,
+    "name": "Nehir SAÇKESEN",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/nehir_sackesen.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 19,
+    "name": "Nejat DİRİ",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/nejat_diri.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 20,
+    "name": "Nilgün SEVİM",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/nilgun_sevim.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 21,
+    "name": "Nurhan ORALALP",
+    "role": "Oyuncu",
+    "image": "images/oyuncular/nurhan_oralalp.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 22,
+    "name": "Poyraz ALSAÇ",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/poyraz_alsac.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 23,
+    "name": "Samet Eren UÇAR",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/samet_eren_ucar.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 24,
+    "name": "Selin TAŞKIRAN",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/selin_taskiran.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 25,
+    "name": "Süheyla ROGOP",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/suheyla_rogop.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 26,
+    "name": "Şafak AYDIN",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/safak_aydin.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 27,
+    "name": "Tanzer DÖKMEN",
+    "role": "Genel Sanat Yönetmeni",
+    "image": "images/oyuncular/tanzer_dokmen.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 28,
+    "name": "Tufan ÖZEK",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/tufan_ozek.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 29,
+    "name": "Yılmaz SELVİTOP",
+    "role": "Oyuncu",
+    "image": "images/oyuncular/yilmaz_selvitop.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 30,
+    "name": "Yusuf BİLGİN",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/yusuf_bilgin.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 31,
+    "name": "Yüksel UZUN",
+    "role": "Atölye Oyuncu",
+    "image": "images/oyuncular/yuksel_uzun.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  },
+  {
+    "id": 32,
+    "name": "Zehra BABA",
+    "role": "Atölye Oyuncusu",
+    "image": "images/oyuncular/zehra_baba.png",
+    "description": "Nehir Saçkes, sahne performanslarıyla tanınan bir oyuncudur. Çeşitli oyunlarda önemli roller üstlenmiştir."
+  }
+]

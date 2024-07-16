@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Arşiv Oyun 1",
+        "description": "Arşiv Oyun 1 açıklaması.",
+        "image": "arsiv_oyun1.jpg"
+    },
+    {
+        "name": "Arşiv Oyun 2",
+        "description": "Arşiv Oyun 2 açıklaması.",
+        "image": "arsiv_oyun2.jpg"
+    }
+]

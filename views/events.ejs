@@ -1,0 +1,12 @@
+<main>
+    <h2>Etkinlikler</h2>
+    <% events.forEach(event => { %>
+        <div class="event">
+            <h3><%= event.title %></h3>
+            <p>Tarih: <%= new Date(event.date).toLocaleDateString('tr-TR') %></p>
+            <p>Mekan: <%= event.venue %></p>
+            <p><%= event.description %></p>
+            <img src="<%= event.image %>" alt="<%= event.title %>" width="200">
+        </div>
+    <% }); %>
+    </main>

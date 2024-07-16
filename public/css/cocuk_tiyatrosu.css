@@ -1,0 +1,23 @@
+.cocuk-tiyatrosu #cocukCarousel {
+    margin-top: 56px; /* Navbar'ın altında başlaması için */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cocuk-tiyatrosu #cocukCarousel .carousel-item img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .cocuk-tiyatrosu #cocukCarousel {
+        max-width: 100%;
+    }
+
+    .cocuk-tiyatrosu #cocukCarousel .carousel-item img {
+        height: auto;
+        aspect-ratio: 4 / 1; /* 800:200 oranını korur */
+    }
+}

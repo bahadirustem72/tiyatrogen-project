@@ -1,0 +1,58 @@
+<%- include('layout', { title: 'Gökkuşağı Çocuk Tiyatrosu' }) %>
+
+<div id="cocukCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="path_to_image1.jpg" class="d-block w-100" alt="Çocuk Tiyatrosu 1">
+        </div>
+        <div class="carousel-item">
+            <img src="path_to_image2.jpg" class="d-block w-100" alt="Çocuk Tiyatrosu 2">
+        </div>
+        <div class="carousel-item">
+            <img src="path_to_image3.jpg" class="d-block w-100" alt="Çocuk Tiyatrosu 3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#cocukCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Önceki</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#cocukCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Sonraki</span>
+    </button>
+</div>
+
+<!-- Tab yapısı -->
+<div class="container mt-5">
+    <ul class="nav nav-tabs" id="cocukTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="hakkimizda-tab" data-bs-toggle="tab" data-bs-target="#hakkimizda" type="button" role="tab" aria-controls="hakkimizda" aria-selected="true">Hakkımızda</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="oyunlarimiz-tab" data-bs-toggle="tab" data-bs-target="#oyunlarimiz" type="button" role="tab" aria-controls="oyunlarimiz" aria-selected="false">Oyunlarımız</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="cocukTabsContent">
+        <div class="tab-pane fade show active" id="hakkimizda" role="tabpanel" aria-labelledby="hakkimizda-tab">
+            <h2 class="mt-4">Gökkuşağı Çocuk Tiyatrosu Hakkında</h2>
+            <p>Buraya çocuk tiyatrosu hakkında bilgiler gelecek...</p>
+        </div>
+        <div class="tab-pane fade" id="oyunlarimiz" role="tabpanel" aria-labelledby="oyunlarimiz-tab">
+            <h2 class="mt-4">Oyunlarımız</h2>
+            <div class="row">
+                <!-- Örnek oyun kartı -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="path_to_oyun_afisi.jpg" class="card-img-top" alt="Oyun Adı">
+                        <div class="card-body">
+                            <h5 class="card-title">Oyun Adı</h5>
+                            <p class="card-text">Oyun hakkında kısa açıklama...</p>
+                            <a href="#" class="btn btn-primary">Detaylar</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diğer oyun kartları buraya eklenecek -->
+            </div>
+        </div>
+    </div>
+</div>

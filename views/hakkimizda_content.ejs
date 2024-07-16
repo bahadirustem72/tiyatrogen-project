@@ -1,0 +1,82 @@
+<div class="container my-5" style="padding-top: 80px;">
+    <h2>Hakkımızda</h2>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="about-tab" data-bs-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="true">Tiyatrogen Hakkında</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="director-tab" data-bs-toggle="tab" href="#director" role="tab" aria-controls="director" aria-selected="false">Genel Sanat Yönetmeni</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="team-tab" data-bs-toggle="tab" href="#team" role="tab" aria-controls="team" aria-selected="false">Ekibimiz</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <!-- Tiyatrogen Hakkında Tab -->
+        <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="/images/common/tiyatrogen_logo.png" class="img-fluid my-3 top-logo" alt="Tiyatrogen Logo">
+                    </div>
+                    <div class="col-12">
+                        <div class="about-text">
+                            <h3 class="mt-3">Tiyatrogen Hakkında</h3>
+                            <hr>
+                            <p>
+                            <h5>Tiyatrogen: Sosyal Sorumluluk ve Sanatın Buluşma Noktası</h5>
+                            Tiyatrogen, sanatı toplumun her kesimine ulaştırma misyonuyla hareket eden, sosyal sorumluluk projelerine odaklanan bir tiyatro grubudur. 25 yılı aşkın tecrübesiyle, sadece çocuklara değil, her yaştan insana ulaşarak sanatın gücünü toplumsal faydaya dönüştürmeyi amaçlamaktadır.
+                            </p>
+                            <p>
+                            <h5>Sosyal Sorumluluk Projeleri ve Etkinlikler</h5>
+                            Tiyatrogen, sanatı toplumsal değişim ve gelişim için bir araç olarak kullanır. Özellikle dezavantajlı gruplara yönelik projeleriyle tanınan topluluk, tiyatro aracılığıyla toplumsal farkındalık yaratmayı hedefler. Evde eğitim gören çocuklar, engelli bireyler, kadın sığınma evlerindeki kadınlar ve kırsal bölgelerde yaşayanlar gibi çeşitli topluluklara yönelik projeler yürütmektedir.
+                            <br>
+                            Bu projeler, katılımcıların hem eğlenmelerini hem de eğitilmelerini sağlarken, aynı zamanda sosyal bağları güçlendirir ve toplumsal bilinç oluşturur. Tiyatrogen’in oyunları, her yaştan bireyin katılımına açık olup, geniş bir izleyici kitlesine hitap eder.
+                            </p>
+                            <p>
+                            <h5>Çocuk ve Gençlere Yönelik Programlar</h5>
+                            Tiyatrogen, çocukların ve gençlerin sanata olan ilgisini artırmak amacıyla özel programlar ve atölyeler düzenler. Bu etkinlikler, gençlerin yaratıcılığını geliştirmeye, eleştirel düşünme becerilerini kazanmalarına ve özgüvenlerini artırmalarına yardımcı olur. Her oyun sonrası gerçekleştirilen interaktif atölyeler ile çocuklar ve gençler, izledikleri oyunların içeriklerini daha derinlemesine anlama ve kendi hikayelerini yaratma fırsatı bulurlar.
+                            </p>
+                            <p>
+                            <h5>Geniş Yaratıcı İçerik Yelpazesi</h5>
+                            Tiyatrogen, klasik tiyatro oyunlarının yanı sıra, özgün senaryolar ve güncel konuları ele alan prodüksiyonlar da sunar. Topluluğun repertuarında komediden drama, müzikalden deneysel tiyatroya kadar geniş bir yelpaze bulunmaktadır. Böylece her yaştan ve her kesimden izleyiciye hitap eder.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Genel Sanat Yönetmeni Tab -->
+        <div class="tab-pane fade" id="director" role="tabpanel" aria-labelledby="director-tab">
+            <!-- Genel Sanat Yönetmeni içeriği buraya eklenecek -->
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h3 class="mt-3">Genel Sanat Yönetmeni</h3>
+                        <hr>
+                        <!-- Genel Sanat Yönetmeni hakkında metin ve resimler buraya eklenecek -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ekibimiz Tab -->
+        <div class="tab-pane fade" id="team" role="tabpanel" aria-labelledby="team-tab">
+            <div class="container my-5">
+                <h3 class="mt-3">Ekibimiz</h3>
+                <div class="row">
+                    <% ekip.forEach(member => { %>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <div class="card h-100">
+                                <img src="<%= member.image %>" class="card-img-top" alt="<%= member.name %>">
+                                <div class="card-body">
+                                    <h5 class="card-title"><%= member.name %></h5>
+                                    <p class="card-text"><%= member.title %></p> <!-- Ünvan bilgisi için -->
+                                </div>
+                            </div>
+                        </div>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

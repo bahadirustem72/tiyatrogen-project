@@ -1,0 +1,127 @@
+@import 'base.css';
+@import 'layout.css';
+@import 'components.css';
+@import 'pages.css';
+@import 'utilities.css';
+
+/* Buraya genel ve özelleştirilmiş stiller eklenebilir */
+/* Renk Paleti */
+:root {
+    --primary-color: #FF0000; /* Kırmızı */
+    --secondary-color: #FFD700; /* Altın */
+    --background-color: #F2F2F2; /* %95 Beyaz */
+    --text-color: #1A1A1A; /* %95 Siyah */
+    --accent-color: #FFD700; /* Altın */
+}
+
+/* Genel stiller */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar Menüsünün Genel Stilleri */
+.navbar {
+    height: 70px;
+    line-height: 70px;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    background-color: #FFD700;
+    color: rgba(26, 26, 26, 0.95);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgba(242, 242, 242, 0.95);
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.navbar-nav .nav-item .nav-link.childrens {
+    color: #FFD700;
+    margin-left: auto;
+}
+
+/* Card stilleri */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px; /* Kartlar arasındaki boşluk */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666; /* Ünvan bilgisi için biraz daha soluk bir renk */
+}
+
+/* Resim boyutlarını ayarlamak için */
+.card-img-top {
+    object-fit: cover;
+    height: 300px; /* Tüm resimlerin aynı yükseklikte olması için */
+}
+
+/* Mobil ve küçük ekranlar için düzenlemeler */
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 200px; /* Küçük ekranlar için resim yüksekliği */
+    }
+}
+
+/* Carousel ve Header Arasına Boşluk Eklemek İçin */
+.carousel-container {
+    padding-top: 70px;
+}
+
+/* Footer stilleri */
+footer {
+    background-color: #333;
+    color: rgba(242, 242, 242, 0.95);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Mobil uyumluluk için */
+@media (max-width: 768px) {
+    .carousel-container {
+        padding-top: 50px;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+}
+
+/* Tiyatrogen Hakkında sayfası için stil */
+.about-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.top-logo {
+    width: 50%; /* Logoyu %50 küçültme */
+    background-color: rgba(26, 26, 26, 0.95); /* %95 siyah arka plan */
+    padding: 10px;
+    border-radius: 5px; /* Kenarları hafif yuvarlama */
+}
+
+.about-text img {
+    width: 100px; /* Logo boyutu */
+    opacity: 0.1; /* Transparanlık ayarı */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Metnin arkasına yerleştirme */
+}
